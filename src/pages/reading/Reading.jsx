@@ -18,7 +18,23 @@ export default function Reading() {
         name={spanishName}
         kanji={kanji}
         img={clowReverse}
-        meaning={meaning}
+        text={meaning}
+        alt={meaning}
+      />
+      <Card
+        id={id}
+        name={spanishName}
+        kanji={kanji}
+        img={clowReverse}
+        text={meaning}
+        alt={meaning}
+      />
+      <Card
+        id={id}
+        name={spanishName}
+        kanji={kanji}
+        img={clowReverse}
+        text={meaning}
         alt={meaning}
       />
     </>
