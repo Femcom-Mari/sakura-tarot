@@ -8,8 +8,10 @@
 }
 
 :root {
-  background-color: #e9ded0;
-  /*Parametros de todos los colores a utilizar */
+  --dark-red: #800020;
+  --black: #000000;
+  --dusky-pink: #CCA89D;
+  --white: #FFFFFF;
 }
 
 body {
