@@ -8,7 +8,7 @@
 }
 
 :root {
-  background-color: #2f303a;
+  background-color: #e9ded0;
 }
 
 body {
@@ -16,4 +16,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
