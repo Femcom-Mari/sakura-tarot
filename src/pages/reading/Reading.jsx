@@ -1,5 +1,7 @@
 import styles from "./Reading.module.css";
 import ReadingCard from "../../components/readingCard/ReadingCard";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 import CardImage from "../../components/cardImage/CardImage";
 
 let id = 7;
@@ -13,6 +15,7 @@ let meaning = "Representa la evasión de los problemas.";
 export default function Reading() {
   return (
     <>
+      <Header />
       <h2 className={styles.titulo1}>COMPONENTE PAGINA READING</h2>
       <ReadingCard
         id={id}
@@ -21,6 +24,7 @@ export default function Reading() {
         img={clowCard}
         text={meaning}
       />
+      <Footer />
       <CardImage img={clowCard} text={meaning} id={id} />
     </>
   );

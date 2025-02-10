@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import styles from "./Header.module.css";
 import refresh from '../../assets/images/refresh-icon.png';
 import sound from '../../assets/images/sound-on-icon.png';
