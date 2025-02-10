@@ -1,14 +1,25 @@
 import styles from "./Header.module.css";
+import refresh from '../../assets/images/refresh-icon.png';
+import sound from '../../assets/images/sound-on-icon.png';
 
 export default function Home() {
   return (
-    <>
-      <h1 className={styles.titulo1}>
-        Debo importar aqui el componente logo con su texto
-      </h1>
-      <h2 className={styles.titulo2}>
-        Debo importar aqui el componente x que tambien vaya en header
-      </h2>
-    </>
-  );
+    
+         <div>
+             <header>
+             <div className={styles.container}>
+            <div className={styles.sol}>
+              <h1 >Sol Tarot</h1>  
+             </div> 
+             <button className  ={styles.refresh}>
+               <img src={refresh} alt="refresh" />
+              </button>
+              <button className  ={styles.sound}>
+               <img src={sound} alt="refresh" />
+              </button>
+            </div>
+                 </header>
+             </div>
+        
+    );
 }
