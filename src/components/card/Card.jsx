@@ -1,21 +1,16 @@
 import styles from "./Card.module.css";
 
-export default function Card({ id, name, kanji, img, text }) {
+function Card({ id, img, text }) {
   return (
     <>
+      <h1>SELECCIONA 3 CARTAS</h1>
       <div className={styles.cardContainer}>
-        <section className={styles.cardTitle}>
-          <h2>{name}</h2>
-          <h2>{kanji}</h2>
-          <h2>{id}</h2>
-        </section>
         <div className={styles.cardInfo}>
-          <img src={img} alt={text} />
-          <section className={styles.cardText}>
-            <p>{text}</p>
-          </section>
+          <img src={img} id={id} alt={text} />
         </div>
       </div>
     </>
   );
 }
+
+export default Card;

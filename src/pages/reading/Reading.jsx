@@ -1,5 +1,6 @@
 import styles from "./Reading.module.css";
-import Card from "../../components/card/Card";
+import ReadingCard from "../../components/readingCard/ReadingCard";
+import CardImage from "../../components/cardImage/CardImage";
 
 let id = 7;
 let spanishName = "Salto";
@@ -13,22 +14,14 @@ export default function Reading() {
   return (
     <>
       <h2 className={styles.titulo1}>COMPONENTE PAGINA READING</h2>
-      <Card
-        id={id}
-        name={spanishName}
-        kanji={kanji}
-        img={clowReverse}
-        text={meaning}
-        alt={meaning}
-      />
-      <Card
+      <ReadingCard
         id={id}
         name={spanishName}
         kanji={kanji}
         img={clowCard}
         text={meaning}
-        alt={meaning}
       />
+      <CardImage img={clowCard} text={meaning} id={id} />
     </>
   );
 }
