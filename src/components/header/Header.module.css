@@ -1,15 +1,66 @@
-.titulo1 {
-    color: aqua;
+.container{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    
 }
+.sol{
+    color: #000000;
+    display:flex;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 12px;
+    padding-top: 5%;
+    padding-left: 8%;
+}
+.refresh{ 
+    display:flex ;
+    justify-content: flex-end;
+    background: none;
+    width: 45px;
+    height: 45px;
+    border:none ; 
+    width: 10.18%;
+  height: 75.47%;
+  position: absolute;
+  right: 15.52%;
+  left: 74.3%;
+  bottom: 5.66%;
+  top: 18.87%;
+  object-fit: cover;
+}
+.refresh img {
+    display:flex ;
+    background: none;
+    width: 40px;
+    height: 40px;
+   
+ }
+.sound{ 
+    display:flex ;
+    justify-content: flex-end;
+    background: none;
+    width: 40px;
+    height: 45px;
+    border:none ;
+    width: 7.63%;
+    height: 56.6%;
+    position: absolute;
+    right: 4.07%;
+    left: 88.3%;
+    bottom: 16.98%;
+    top: 26.42%;
+    object-fit: cover;
+    
 
-.titulo2 {
-    color: rgb(187, 255, 0);
 }
-
-.p1 {
-    color: blue;
-}
-
-.p2 {
-    color: chocolate;
-}
+ .sound img  {
+    display:flex ;
+    background: none;
+    width: 30px;
+    height: 30px;
+   
+ }
+ 
