@@ -1,0 +1,27 @@
+.formContainer{
+    border: 1px solid red;
+    width: 70vw;
+    height: 20vh;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.formLabel{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.formText{
+    font-size: 2rem;
+}
+
+.formInput{
+    padding-top: 20px;
+    background-color: var(--lightgrey);
+    border-radius: 10px;
+    width: 100%;
+    height: 3rem;
+}
