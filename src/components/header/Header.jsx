@@ -9,9 +9,9 @@ export default function Home() {
          <div>
              <header>
              <div className={styles.container}>
-            <div className={styles.sol}>
-              <h1 >Sol Tarot</h1>  
-             </div> 
+             <NavLink className={styles.sol} to="/home">
+             <h1>Sol Tarot</h1>
+             </NavLink>
              <button className  ={styles.refresh}>
                <img src={refresh} alt="refresh" />
               </button>
