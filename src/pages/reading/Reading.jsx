@@ -1,5 +1,6 @@
 import styles from "./Reading.module.css";
 import Card from "../../components/card/Card";
+import Header from "../../components/header/Header";
 
 let id = 7;
 let spanishName = "Salto";
@@ -12,6 +13,7 @@ let meaning = "Representa la evasión de los problemas.";
 export default function Reading() {
   return (
     <>
+    <Header/>
       <h2 className={styles.titulo1}>COMPONENTE PAGINA READING</h2>
       <Card
         id={id}
