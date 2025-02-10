@@ -1,6 +1,7 @@
 import styles from "./Reading.module.css";
 import Card from "../../components/card/Card";
 import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 
 let id = 7;
 let spanishName = "Salto";
@@ -30,7 +31,9 @@ export default function Reading() {
         img={clowCard}
         text={meaning}
         alt={meaning}
+        
       />
+      <Footer/>
     </>
   );
 }
