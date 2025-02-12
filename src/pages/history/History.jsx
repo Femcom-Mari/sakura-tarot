@@ -1,10 +1,10 @@
 import styles from "./History.module.css";
 import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
+import Navbar from "../../components/Navbar/Navbar";
 export default function History() {
   return (
     <>
-     <Header/>
+     <Navbar/>
       <h2 className={styles.titulo1}>COMPONENTE PAGINA HISTORY</h2>
       <Footer/>
     </>

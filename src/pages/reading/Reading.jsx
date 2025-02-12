@@ -1,6 +1,6 @@
 import styles from "./Reading.module.css";
 import ReadingCard from "../../components/readingCard/ReadingCard";
-import Header from "../../components/header/Header";
+import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import CardImage from "../../components/cardImage/CardImage";
 
@@ -15,7 +15,7 @@ let meaning = "Representa la evasión de los problemas.";
 export default function Reading() {
   return (
     <>
-      <Header />
+      <Navbar/>
       <h2 className={styles.titulo1}>COMPONENTE PAGINA READING</h2>
       <ReadingCard
         id={id}

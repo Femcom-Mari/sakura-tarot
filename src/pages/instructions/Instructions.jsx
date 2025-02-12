@@ -5,11 +5,11 @@ import Button from "../../components/button/Button"
 
 
 import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
+import Navbar from "../../components/Navbar/Navbar";
 export default function Instructions() {
   return (
     <>
-    <Header/>
+    <Navbar/>
       <h2 className={styles.titulo1}>COMPONENTE PAGINA INSTRUCTIONS</h2>
       <Button
        text="Comenzar"/>
