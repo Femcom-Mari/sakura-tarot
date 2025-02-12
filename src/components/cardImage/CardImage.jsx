@@ -1,5 +1,6 @@
 // ReadingCardInfo.jsx
 import styles from "./CardImage.module.css";
+import CardMeaning from "../CardMeaning/CardMeaning";
 
 let id = 7;
 let spanishName = "Salto";
@@ -11,9 +12,7 @@ export default function CardImage({ img, text, id }) {
   return (
     <div className={styles.cardImage}>
       <img src={img} alt={text} id={id} />
-      <section className={styles.cardText}>
-        <p>{text}</p>
-      </section>
+      <CardMeaning />
     </div>
   );
 }
