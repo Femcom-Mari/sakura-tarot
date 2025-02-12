@@ -7,9 +7,8 @@ function Introduction() {
   return (
     <>
     <Navbar/>
-      <h2 className={styles.titulo1}>COMPONENTE PAGINA INTRODUCTION</h2>
-      <Form />
-      <Footer/>
+    <Form />
+    <Footer/>
     </>
   );
 }

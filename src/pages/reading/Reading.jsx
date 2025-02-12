@@ -24,8 +24,14 @@ export default function Reading() {
         img={clowCard}
         text={meaning}
       />
+      <ReadingCard
+        id={id}
+        name={spanishName}
+        kanji={kanji}
+        img={clowCard}
+        text={meaning}
+      />
       <Footer />
-      <CardImage img={clowCard} text={meaning} id={id} />
     </>
   );
 }
