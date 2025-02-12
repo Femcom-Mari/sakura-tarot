@@ -15,8 +15,11 @@ let meaning = "Representa la evasión de los problemas.";
 export default function Reading() {
   return (
     <>
+    <header className={styles.header}>
       <Navbar/>
-      <h2 className={styles.titulo1}>COMPONENTE PAGINA READING</h2>
+      </header>
+
+    <main className={styles.reading}>
       <ReadingCard
         id={id}
         name={spanishName}
@@ -24,14 +27,17 @@ export default function Reading() {
         img={clowCard}
         text={meaning}
       />
-      <ReadingCard
-        id={id}
-        name={spanishName}
-        kanji={kanji}
-        img={clowCard}
-        text={meaning}
-      />
+        <ReadingCard
+          id={id}
+          name={spanishName}
+          kanji={kanji}
+          img={clowCard}
+          text={meaning}
+        />
+      </main>  
+      <footer className={styles.footer}>
       <Footer />
+      </footer>
     </>
   );
 }

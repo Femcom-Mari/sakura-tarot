@@ -6,9 +6,15 @@ import Form from "./../../components/form/Form.jsx";
 function Home() {
   return (
     <>
-    <Navbar/>
-    <Form />
-    <Footer/>
+     <header className={styles.header}>
+      <Navbar/>
+      </header>
+      <main className={styles.home}>
+      <Form />
+      </main>
+      <footer className={styles.footer}>
+      <Footer/>   
+      </footer>
     </>
   );
 }
