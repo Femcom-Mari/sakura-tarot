@@ -4,9 +4,14 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function History() {
   return (
     <>
+    <header className={styles.header}>
      <Navbar/>
-      <h2 className={styles.titulo1}>COMPONENTE PAGINA HISTORY</h2>
+     </header>
+     <main className={styles.history}>
+      </main>
+      <footer className={styles.footer}>
       <Footer/>
+      </footer>
     </>
   );
 }

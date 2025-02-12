@@ -5,12 +5,16 @@ import Footer from "../../components/footer/Footer";
 export default function Home() {
   return (
     <>
-     
+     <header className={styles.header}>
       <Navbar/>
+      </header>
+      <main className={styles.home}>
       <Button
       text="Registrarse"/>
-
-      <Footer/>    
+      </main>
+      <footer className={styles.footer}>
+      <Footer/>   
+      </footer>
     </>
   );
 }

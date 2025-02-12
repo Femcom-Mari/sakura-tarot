@@ -9,11 +9,16 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function Instructions() {
   return (
     <>
+    <header className={styles.header}>
     <Navbar/>
-      <h2 className={styles.titulo1}>COMPONENTE PAGINA INSTRUCTIONS</h2>
+    </header>
+    <main className={styles.instructions}>
       <Button
        text="Comenzar"/>
+       </main>
+       <footer className={styles.footer}>
           <Footer/>
+          </footer> 
     </>
   );
 }
