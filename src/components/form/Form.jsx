@@ -1,4 +1,5 @@
 import styles from "./Form.module.css"
+import Button from "../../components/button/Button";
 
 
 function Form (){
@@ -11,6 +12,7 @@ function Form (){
                 id="username"
                 />
             </label>
+            <Button text={"Validar"}/>
         </form> 
         </>
     )
