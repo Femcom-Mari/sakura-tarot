@@ -1,9 +1,14 @@
+import React, { useEffect } from "react";
 import styles from "./Home.module.css";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Form from "./../../components/form/Form.jsx";
+import { getData } from "../../api/api.jsx";
 
 function Home() {
+  useEffect(() => {
+    getData();
+  }, []);
   return (
     <>
      <header className={styles.header}>
