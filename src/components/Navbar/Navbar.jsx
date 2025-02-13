@@ -10,6 +10,11 @@ import audioFile from "../../audio/background-music.mp3";
 
 export default function Home() {
   const { isPlaying, toggleSound } = useContext(AudioContext);
+  
+  const handleRefresh = () => {
+    window.location.reload();  // Recarga la página actual
+  };
+
   return (
     <div>
       <header>
@@ -17,7 +22,7 @@ export default function Home() {
           <NavLink className={styles.sol} to="/home">
             <h1>Sol Tarot</h1>
           </NavLink>
-          <button className={styles.refresh}>
+          <button className={styles.refresh} onClick={handleRefresh}> 
             <img src={refresh} alt="refresh" />
           </button>
           <button className={styles.sound} onClick={toggleSound}>
