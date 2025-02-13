@@ -6,9 +6,11 @@ import Form from "./../../components/form/Form.jsx";
 import { getData } from "../../api/api.jsx";
 
 function Home() {
+  //PARA VISUALIZAR LA FUNCTION getData
   useEffect(() => {
     getData();
   }, []);
+  //BORRAR LUEGO
   return (
     <>
      <header className={styles.header}>
