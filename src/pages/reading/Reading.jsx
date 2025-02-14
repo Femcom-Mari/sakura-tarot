@@ -17,20 +17,7 @@ export default function Reading() {
     <>
       <Header />
       <h2 className={styles.titulo1}>COMPONENTE PAGINA READING</h2>
-      <ReadingCard
-        id={id}
-        name={spanishName}
-        kanji={kanji}
-        img={clowCard}
-        text={meaning}
-      />
-      <ReadingCard
-        id={id}
-        name={spanishName}
-        kanji={kanji}
-        img={clowCard}
-        text={meaning}
-      />
+
       <Footer />
     </>
   );

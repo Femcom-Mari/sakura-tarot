@@ -15,3 +15,13 @@ Llamada a componentes, Ejemplos:
         text={meaning}
         alt={meaning}
       />
+
+> > Components > ReadingCard:
+
+      <ReadingCard
+        id={id}
+        name={spanishName}
+        kanji={kanji}
+        img={clowCard}
+        text={meaning}
+      />
