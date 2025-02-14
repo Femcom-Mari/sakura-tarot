@@ -8,6 +8,8 @@ export default function CardsFaceDown() {
 
   const handleCardClick = (id) => {
     setSelectedCardId(id);
+    console.log("ID>>");
+    console.log(id);
   };
 
   return (

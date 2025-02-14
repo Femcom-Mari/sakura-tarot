@@ -25,17 +25,8 @@
     transition: transform 0.2s, box-shadow 0.2s, z-index 0.2s, top 0.2s, left 0.2s;
 }
 
-.card:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-}
 
-.selected {
-    box-shadow: 0 0 10px 5px rgb(255, 0, 0);
-    z-index: 100;
-    top: -20px;
-    left: 20px;
-}
+
 
 .cardImage {
     width: 100%;
