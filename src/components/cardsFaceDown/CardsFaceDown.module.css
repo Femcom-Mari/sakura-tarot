@@ -1,0 +1,33 @@
+.deck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 200px;
+}
+
+.deck>div {
+    position: absolute;
+    transform: rotate(calc(var(--i) * 15deg));
+    --i: 0;
+}
+
+.deck>div:nth-child(1) {
+    --i: -2;
+}
+
+.deck>div:nth-child(2) {
+    --i: -1;
+}
+
+.deck>div:nth-child(3) {
+    --i: 0;
+}
+
+.deck>div:nth-child(4) {
+    --i: 1;
+}
+
+.deck>div:nth-child(5) {
+    --i: 2;
+}

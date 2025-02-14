@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import CardImage from "../../components/cardImage/CardImage";
 import background from "../../assets/images/background-image.jpg";
+import CardsFaceDown from "../../components/cardsFaceDown/CardsFaceDown";
 
 let id = 7;
 let spanishName = "Salto";
@@ -31,20 +32,7 @@ export default function Reading() {
       </header>
 
       <main className={styles.reading} style={myStyle}>
-        <ReadingCard
-          id={id}
-          name={spanishName}
-          kanji={kanji}
-          img={clowCard}
-          text={meaning}
-        />
-        <ReadingCard
-          id={id}
-          name={spanishName}
-          kanji={kanji}
-          img={clowCard}
-          text={meaning}
-        />
+        <CardsFaceDown />
       </main>
       <footer className={styles.footer}>
         <Footer />
