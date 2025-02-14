@@ -1,16 +1,45 @@
+import React, { useEffect } from "react";
 import styles from "./Home.module.css";
-import Header from "../../components/header/Header";
-import Button from "../../components/button/Button"
 import Footer from "../../components/footer/Footer";
-export default function Home() {
+import Navbar from "../../components/Navbar/Navbar";
+import Form from "./../../components/form/Form.jsx";
+import { getData } from "../../api/api.jsx";
+import background from "../../assets/images/background-image.jpg";
+import sakura from "../../assets/images/sakura-logo.png"
+function Home() {
+  //PARA VISUALIZAR LA FUNCTION getData
+  useEffect(() => {
+    getData();
+  }, []);
+  //BORRAR LUEGO
+   const myStyle = {
+        backgroundImage: `url(${background})`,
+        height: "100vh",
+        width: "100vw",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        margin: "0",
+        padding: "0",
+        display: "flex",
+      };
   return (
     <>
-     
-      <Header />
-      <Button
-      text="Registrarse"/>
-
-      <Footer/>    
+     <header className={styles.header}>
+      <Navbar/>
+      </header>
+      <main className={styles.home} style={myStyle}>
+      <div className={styles.logo}>
+          <img src={sakura} alt="sakura-logo" />
+          <p>Te damos la bienvenida,
+          Por favor inserta tu nombre</p>
+        </div>
+      <Form />
+      </main>
+      <footer className={styles.footer}>
+      <Footer/>   
+      </footer>
     </>
   );
 }
+
+export default Home

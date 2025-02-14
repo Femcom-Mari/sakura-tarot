@@ -5,15 +5,31 @@ import Button from "../../components/button/Button"
 
 
 import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
+import Navbar from "../../components/Navbar/Navbar";
+import background from "../../assets/images/background-image.jpg";
 export default function Instructions() {
+  const myStyle = {
+    backgroundImage: `url(${background})`,
+    height: "100vh",
+    width: "100vw",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    margin: "0",
+    padding: "0",
+    display: "flex",
+  };
   return (
     <>
-    <Header/>
-      <h2 className={styles.titulo1}>COMPONENTE PAGINA INSTRUCTIONS</h2>
+    <header className={styles.header}>
+    <Navbar/>
+    </header>
+    <main className={styles.instructions}style={myStyle}>
       <Button
        text="Comenzar"/>
+       </main>
+       <footer className={styles.footer}>
           <Footer/>
+          </footer> 
     </>
   );
 }
