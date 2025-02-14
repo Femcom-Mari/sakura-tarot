@@ -1,33 +1,240 @@
+/* CardsFaceDown.module.css */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 80vh;
+}
+
 .deck {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
     position: relative;
-    height: 200px;
+}
+
+.card {
+    width: 60px;
+    height: 90px;
+    margin: 2px;
+    transition: transform 0.2s, box-shadow 0.2s, z-index 0.2s, top 0.2s, left 0.2s;
+}
+
+
+
+
+.cardImage {
+    width: 100%;
+    height: 100%;
 }
 
 .deck>div {
     position: absolute;
-    transform: rotate(calc(var(--i) * 15deg));
+    transform: rotate(calc(var(--i) * 3deg));
     --i: 0;
 }
 
 .deck>div:nth-child(1) {
-    --i: -2;
+    --i: -24;
 }
 
 .deck>div:nth-child(2) {
-    --i: -1;
+    --i: -23;
 }
 
 .deck>div:nth-child(3) {
-    --i: 0;
+    --i: -22;
 }
 
 .deck>div:nth-child(4) {
-    --i: 1;
+    --i: -21;
 }
 
 .deck>div:nth-child(5) {
+    --i: -20;
+}
+
+.deck>div:nth-child(6) {
+    --i: -19;
+}
+
+.deck>div:nth-child(7) {
+    --i: -18;
+}
+
+.deck>div:nth-child(8) {
+    --i: -17;
+}
+
+.deck>div:nth-child(9) {
+    --i: -16;
+}
+
+.deck>div:nth-child(10) {
+    --i: -15;
+}
+
+.deck>div:nth-child(11) {
+    --i: -14;
+}
+
+.deck>div:nth-child(12) {
+    --i: -13;
+}
+
+.deck>div:nth-child(13) {
+    --i: -12;
+}
+
+.deck>div:nth-child(14) {
+    --i: -11;
+}
+
+.deck>div:nth-child(15) {
+    --i: -10;
+}
+
+.deck>div:nth-child(16) {
+    --i: -9;
+}
+
+.deck>div:nth-child(17) {
+    --i: -8;
+}
+
+.deck>div:nth-child(18) {
+    --i: -7;
+}
+
+.deck>div:nth-child(19) {
+    --i: -6;
+}
+
+.deck>div:nth-child(20) {
+    --i: -5;
+}
+
+.deck>div:nth-child(21) {
+    --i: -4;
+}
+
+.deck>div:nth-child(22) {
+    --i: -3;
+}
+
+.deck>div:nth-child(23) {
+    --i: -2;
+}
+
+.deck>div:nth-child(24) {
+    --i: -1;
+}
+
+.deck>div:nth-child(25) {
+    --i: 0;
+}
+
+.deck>div:nth-child(26) {
+    --i: 1;
+}
+
+.deck>div:nth-child(27) {
     --i: 2;
+}
+
+.deck>div:nth-child(28) {
+    --i: 3;
+}
+
+.deck>div:nth-child(29) {
+    --i: 4;
+}
+
+.deck>div:nth-child(30) {
+    --i: 5;
+}
+
+.deck>div:nth-child(31) {
+    --i: 6;
+}
+
+.deck>div:nth-child(32) {
+    --i: 7;
+}
+
+.deck>div:nth-child(33) {
+    --i: 8;
+}
+
+.deck>div:nth-child(34) {
+    --i: 9;
+}
+
+.deck>div:nth-child(35) {
+    --i: 10;
+}
+
+.deck>div:nth-child(36) {
+    --i: 11;
+}
+
+.deck>div:nth-child(37) {
+    --i: 12;
+}
+
+.deck>div:nth-child(38) {
+    --i: 13;
+}
+
+.deck>div:nth-child(39) {
+    --i: 14;
+}
+
+.deck>div:nth-child(40) {
+    --i: 15;
+}
+
+.deck>div:nth-child(41) {
+    --i: 16;
+}
+
+.deck>div:nth-child(42) {
+    --i: 17;
+}
+
+.deck>div:nth-child(43) {
+    --i: 18;
+}
+
+.deck>div:nth-child(44) {
+    --i: 19;
+}
+
+.deck>div:nth-child(45) {
+    --i: 20;
+}
+
+.deck>div:nth-child(46) {
+    --i: 21;
+}
+
+.deck>div:nth-child(47) {
+    --i: 22;
+}
+
+.deck>div:nth-child(48) {
+    --i: 23;
+}
+
+.deck>div:nth-child(49) {
+    --i: 24;
+}
+
+.deck>div:nth-child(50) {
+    --i: 25;
 }
