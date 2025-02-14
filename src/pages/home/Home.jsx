@@ -7,11 +7,6 @@ import { getData } from "../../api/api.jsx";
 import background from "../../assets/images/background-image.jpg";
 import sakura from "../../assets/images/sakura-logo.png"
 function Home() {
-  //PARA VISUALIZAR LA FUNCTION getData
-  useEffect(() => {
-    getData();
-  }, []);
-  //BORRAR LUEGO
    const myStyle = {
         backgroundImage: `url(${background})`,
         height: "100vh",
