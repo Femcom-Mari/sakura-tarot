@@ -4,6 +4,7 @@ import CardImage from "../cardImage/CardImage";
 
 export default function CardsFaceDown() {
   const [selectedCardId, setSelectedCardId] = useState(null);
+  const selectedImage = "https://i.ibb.co/BfJYRBK/Salto.jpg";
 
   const handleCardClick = (id) => {
     setSelectedCardId(id);
@@ -11,14 +12,14 @@ export default function CardsFaceDown() {
 
   return (
     <main className={style.main}>
-      <h1>HOLIS SOY CARDS FACEDOWN</h1>
       <div className={style.deck}>
-        {[1, 2, 3, 4, 5].map((id) => (
+        {Array.from({ length: 50 }, (_, index) => index + 1).map((id) => (
           <CardImage
             key={id}
             id={id}
             onClick={handleCardClick}
             selected={id === selectedCardId}
+            selectedImage={selectedImage}
           />
         ))}
       </div>

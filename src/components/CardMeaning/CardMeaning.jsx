@@ -10,6 +10,7 @@ export default function CardMeaning({ text }) {
   return (
     <>
       <section className={styles.cardText}>
+        <img src={clowCard} alt={spanishName} className={styles.cardImage} />
         <p>{meaning}</p>
       </section>
     </>
