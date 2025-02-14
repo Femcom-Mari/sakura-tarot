@@ -15,7 +15,7 @@ export default function CardsFaceDown() {
   return (
     <main className={style.main}>
       <div className={style.deck}>
-        {Array.from({ length: 50 }, (_, index) => index + 1).map((id) => (
+        {Array.from({ length: 54 }, (_, index) => index + 1).map((id) => (
           <CardImage
             key={id}
             id={id}
