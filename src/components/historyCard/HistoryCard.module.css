@@ -1,0 +1,18 @@
+.bkContainer {
+    background-color: var(--LavenderBlush);
+    display: flex;
+    gap: 1 rem;
+    margin: 0.1rem;
+    padding: 0.425rem;
+    border-radius: 1rem;
+    width: 20rem;
+}
+
+.headerCard {
+    display:inline-block
+}
+
+.apiContent {
+    text-align: center;
+    justify-content: center;
+}

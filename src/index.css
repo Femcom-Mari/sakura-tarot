@@ -13,6 +13,8 @@
   --dusky-pink: #CCA89D;
   --white: #FFFFFF;
   --lightgrey: #D9D9D9;
+  --LavenderBlush: #fff5f5 ;
+  --dusky-pink-transparency: rgba(204, 168, 157, 0.4) ;
 }
 
 body {

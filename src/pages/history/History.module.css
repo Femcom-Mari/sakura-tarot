@@ -1,10 +1,59 @@
-.background {
-    background-image: url("../../assets/images/background-image.jpg");
-        height: 100vh;
-        width: 100vw;
-        background-size: "cover";
-        background-repeat: "no-repeat";
-        margin: 0;
-        padding: 0;
-        display: "flex";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
+
+
+body {
+    background-image: url("../../assets/images/background-image.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    align-items: center;
+
+}
+
+
+.Support  { background-color: var(--dusky-pink-transparency);
+    z-index: -1;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 30rem;
+    margin-top: 4rem;
+    
+}
+
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.mainHeader p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.5rem;
+  }
+
+  .logo {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    justify-content: flex-end;
+    align-items: end;
+
+  }
+
+  .contentButton {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+  }
