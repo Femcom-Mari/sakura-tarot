@@ -8,14 +8,16 @@ function HistoryCard () {
 <div className={styles.bkContainer}>
   <div className={styles.headerCard}>
     <p>Lola</p>
-    <Button text="Borrar"/>
+    <p>fecha</p>
+    
   </div>
   <div className={styles.apiContent}>
     <p>Presente La Sombra</p>
     <p>Simboliza la librertas, la evasión</p>
   </div>
   <div className={styles.date}>
-    <p>fecha</p>
+  <Button text="Borrar"/>
+    
   </div>
 </div>
 

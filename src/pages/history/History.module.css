@@ -19,11 +19,11 @@ body {
 }
 
 
-.Support  { background-color: var(--dusky-pink-transparency);
+main  { background-color: var(--dusky-pink-transparency);
     z-index: -1;
     border-radius: 2rem;
     width: 20rem;
-    height: 30rem;
+    height: 32rem;
     margin-top: 4rem;
     
 }
@@ -56,4 +56,10 @@ body {
     flex-direction: row;
     gap: 3rem;
 
+  }
+
+
+  .historycardScroll {
+    overflow:auto;
+    max-height: 20rem; 
   }

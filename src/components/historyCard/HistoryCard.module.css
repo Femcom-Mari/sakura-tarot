@@ -2,17 +2,27 @@
     background-color: var(--LavenderBlush);
     display: flex;
     gap: 1 rem;
-    margin: 0.1rem;
-    padding: 0.425rem;
-    border-radius: 1rem;
-    width: 20rem;
-}
+    inline-size: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.2rem;
+    margin-bottom: 2rem;
+    align-content: center;
+    width: 20rem ;
+    height: 6rem;
+
+  }
 
 .headerCard {
-    display:inline-block
+    font-size: 1em;
+    text-align: center;
+    margin: 0.5rem;
+    
+
 }
 
 .apiContent {
     text-align: center;
     justify-content: center;
 }
+

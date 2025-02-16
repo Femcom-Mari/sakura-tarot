@@ -19,19 +19,20 @@ export default function History() {
           <div className= {styles.Support} >
               <div className={styles.mainHeader}>
               <p>Refleciona sobre la sabiduria en nuestro <b>Historial</b></p>
-              <NavLink to="/home"> <a href="Icon back to tarot" className={styles.logo}>
+              <NavLink to="/reading"> <a href="Icon back to tarot" className={styles.logo}>
               <img src={skipIcon} alt="Skip page" className={styles.logo}/> 
               </a></NavLink>
 
             </div>
 
-            <div>
+            <div className= {styles.historycardScroll}>
                <HistoryCard/>
                  <HistoryCard/>
                <HistoryCard/>
             </div> 
             <div className={styles.contentButton}>
-            <Button text="Volver a la pagina principal" />
+              <NavLink to="/reading"> <a href="Button back to tarot" className="">
+            <Button text="Volver a la pagina principal" /></a></NavLink>
             <Button text="Borrar historial"/>
             </div>
           </div>
