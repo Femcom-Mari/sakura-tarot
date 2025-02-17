@@ -1,14 +1,10 @@
 import styles from "../button/Button.module.css";
-import { NavLink } from "react-router";
 
-
-function Button ({text, to}) {
+function Button({ text, onClick, type = "button", disabled }) {
   return (
-    <div> 
-        <NavLink to={to}>
-          <button className={styles.register}>{text}</button>
-        </NavLink>
-    </div>
+    <button className={styles.register} onClick={onClick} type={type} disabled={disabled}>
+      {text}
+    </button>
   );
 }
 
