@@ -17,7 +17,7 @@ export default function CardImage({ id, img, selected, onFlip }) {
       onClick={handleFlip}
     >
       <img
-        src={flipped ? img : "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg"}
+        src={selected ? selectedImage : flipped ? img : "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg"}
         alt={"dorso de la carta"}
         className={styles.cardImage}
       />
