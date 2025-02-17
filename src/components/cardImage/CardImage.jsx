@@ -5,35 +5,25 @@ import styles from "./CardImage.module.css";
 export default function CardImage({
   id,
   img,
-  selected,
-  showing,
+  flipped: initialFlipped,
   onFlip,
   style,
 }) {
-  const [flipped, setFlipped] = useState(false);
+  const [flipped, setFlipped] = useState(initialFlipped);
 
   useEffect(() => {
-    if (showing) {
-      setFlipped(true);
-    } else if (selected) {
-      setFlipped(true);
-    } else {
-      setFlipped(false);
-    }
-  }, [showing, selected]);
+    setFlipped(initialFlipped);
+  }, [initialFlipped]);
 
   const handleFlip = () => {
-    if (!selected && !showing) {
-      setFlipped(!flipped);
-      if (onFlip) onFlip(id, !flipped);
-    }
+    const newFlipped = !flipped;
+    setFlipped(newFlipped);
+    if (onFlip) onFlip(id, newFlipped);
   };
 
   return (
     <div
-      className={`${styles.card} ${flipped ? styles.flipped : ""} ${
-        selected ? styles.selected : ""
-      }`}
+      className={`${styles.card} ${flipped ? styles.flipped : ""}`}
       onClick={handleFlip}
       style={style}
     >

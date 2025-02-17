@@ -33,7 +33,11 @@ export default function CardsFaceDown() {
   useEffect(() => {
     if (selectedCards.length === 3) {
       console.log("Selected Card IDs:", selectedCards);
-      localStorage.setItem("selectedCards", JSON.stringify(selectedCards));
+      const selectedCardIdsAsNumbers = selectedCards.map(Number); // Convertir los IDs a números
+      localStorage.setItem(
+        "selectedCards",
+        JSON.stringify(selectedCardIdsAsNumbers)
+      );
       console.table(localStorage);
     }
   }, [selectedCards]);
