@@ -7,12 +7,10 @@ import { useNavigate } from "react-router-dom";
 export default function CardsFaceDown() {
   const navigate = useNavigate();
   const [selectedCardId, setSelectedCardId] = useState(null);
-  const selectedImage = "https://i.ibb.co/BfJYRBK/Salto.jpg";
+  const selectedImage = "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg";
 
   const handleCardClick = (id) => {
     setSelectedCardId(id);
-    console.log("ID>>");
-    console.log(id);
   };
 
   return (
