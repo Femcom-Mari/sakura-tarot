@@ -15,23 +15,13 @@ let clowReverse = "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg";
 let meaning = "Representa la evasión de los problemas.";
 
 export default function Reading() {
-  const myStyle = {
-    backgroundImage: `url(${background})`,
-    height: "100vh",
-    width: "100vw",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    margin: "0",
-    padding: "0",
-    display: "flex",
-  };
   return (
     <>
       <header className={styles.header}>
         <Navbar />
       </header>
 
-      <main className={styles.reading} style={myStyle}>
+      <main className={`${styles.reading} ${styles.background}`}>
         <CardsFaceDown />
       </main>
       <footer className={styles.footer}>

@@ -1,3 +1,15 @@
+.background {
+    background-image: url("../../assets/images/background-image.jpg");
+        height: 100vh;
+        width: 100vw;
+        background-size: "cover";
+        background-repeat: "no-repeat";
+        margin: 0;
+        padding: 0;
+        display: "flex";
+}
+
+
 .titulo1 {
     background-color: rgb(177, 14, 202);
 }
