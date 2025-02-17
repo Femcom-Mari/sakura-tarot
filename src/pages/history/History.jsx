@@ -2,6 +2,8 @@ import styles from "./History.module.css";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import background from "../../assets/images/background-image.jpg";
+
+
 export default function History() {
   const myStyle = {
     backgroundImage: `url(${background})`,
@@ -23,6 +25,6 @@ export default function History() {
       <footer className={styles.footer}>
       <Footer/>
       </footer>
-    </>
+    </> 
   );
 }
