@@ -6,10 +6,14 @@
         background-repeat: "no-repeat";
         margin: 0;
         padding: 0;
-        display: "flex";
+        display: flex;
 }
 
-
-.titulo1 {
-    background-color: rgb(177, 14, 202);
+.reading{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 95vh;
 }
+
