@@ -4,17 +4,30 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 
 function Form() {
-    const { register, handleSubmit, formState: { errors } } = useForm();
-    const navigate = useNavigate();
-    const onSubmit = (data) => {
-      if (!data.username || data.username.length < 3) {
-        return; 
-      }
-      navigate("/instructions"); 
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const navigate = useNavigate();
+
+  const onSubmit = (data) => {
+    if (!data.username || data.username.length < 3) {
+      return;
+    }
+
+    // Guardar datos en localStorage
+    const userData = {
+      username: data.username,
+      createdAt: new Date().toISOString(),
     };
+    localStorage.setItem("userData", JSON.stringify(userData));
+    console.table(localStorage);
 
+    navigate("/instructions");
+  };
 
-return (
+  return (
     <form onSubmit={handleSubmit(onSubmit)} className={styles.formContainer}>
       <label className={styles.formLabel} htmlFor="username">
         <p className={styles.formText}>Nombre:</p>
