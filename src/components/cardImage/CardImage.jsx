@@ -1,18 +1,24 @@
 // ReadingCardInfo.jsx
 import React from "react";
 import styles from "./CardImage.module.css";
+import { useState, useEffect } from "react";
 
-export default function CardImage({ id, onClick, selected, selectedImage }) {
+export default function CardImage({ id, img, selected, onFlip }) {
+  const [flipped, setFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setFlipped(!flipped);
+    if (onFlip) onFlip(id, !flipped);
+  };
+
   return (
     <div
-      className={`${styles.card} ${selected ? styles.selected : ""}`}
-      onClick={() => onClick(id)}
+      className={`${styles.card} ${flipped ? styles.flipped : ""} ${selected ? styles.selected : ""}`}
+      onClick={handleFlip}
     >
       <img
-        src={
-          selected ? selectedImage : "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg"
-        }
-        alt="Card Back"
+        src={flipped ? img : "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg"}
+        alt={"dorso de la carta"}
         className={styles.cardImage}
       />
     </div>
