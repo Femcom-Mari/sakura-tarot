@@ -1,4 +1,3 @@
-// ReadingCard.jsx
 import styles from "./ReadingCard.module.css";
 import CardImage from "../cardImage/CardImage";
 import CardInfo from "../cardInfo/CardInfo";
@@ -28,8 +27,6 @@ export default function ReadingCard() {
 
   if (!cards) return null;
   if (cards.length < 3) return null;
-
-  console.log("cards", cards)
 
   return (
     <div className={styles.readingContainer}>

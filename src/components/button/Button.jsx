@@ -1,11 +1,10 @@
 import styles from "../button/Button.module.css";
 
-
-function Button ({text}) {
+function Button({ text, onClick, type = "button", disabled }) {
   return (
-    <div>
-        <button className={styles.register}>{text}</button>
-    </div>
+    <button className={styles.register} onClick={onClick} type={type} disabled={disabled}>
+      {text}
+    </button>
   );
 }
 

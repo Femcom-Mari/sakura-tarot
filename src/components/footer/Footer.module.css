@@ -9,7 +9,8 @@
     position: fixed;
     left: 0%;
     justify-content:space-around;
-  }
+    }
+  
 .text{
   color: #000000;
   text-align: center;
@@ -19,4 +20,30 @@
   text-decoration: none;
   margin-top:5%;
   
+}
+
+@media screen and (min-width: 1024px) {
+  .footer{
+    background-color: #CCA89D;
+    color: black;
+    bottom: 0%;
+    width:100%;
+    height:60px;
+    display: flex;
+    position: fixed;
+    left: 0%;
+    justify-content:space-around;
+    align-items:center;
+  }
+  .text{
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    margin:0%
+  }
+    
 }

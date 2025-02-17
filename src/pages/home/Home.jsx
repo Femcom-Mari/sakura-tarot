@@ -16,10 +16,12 @@ function Home() {
       <main className={`${styles.home} ${styles.background}`}>
       <div className={styles.logo}>
           <img src={sakura} alt="sakura-logo" />
-          <p>Te damos la bienvenida,
+          <p>Te damos la bienvenida,<br />
           Por favor inserta tu nombre</p>
         </div>
-      <Form />
+        <div className={styles.form}>  
+      <Form /> 
+      </div>
       </main>
       <footer className={styles.footer}>
       <Footer/>   
