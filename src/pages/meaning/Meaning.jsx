@@ -1,8 +1,8 @@
-import styles from "./Reading.module.css";
+
+import styles from "./Meaning.module.css";
 import ReadingCard from "../../components/readingCard/ReadingCard";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/footer/Footer";
-import Button from "./../../components/button/Button.jsx";
 import CardImage from "../../components/cardImage/CardImage";
 import background from "../../assets/images/background-image.jpg";
 import CardsFaceDown from "../../components/cardsFaceDown/CardsFaceDown";
@@ -13,19 +13,26 @@ let kanji = "跳";
 let Rōmaji = "Odo";
 let clowCard = "https://i.ibb.co/BfJYRBK/Salto.jpg";
 let clowReverse = "https://i.ibb.co/LJSmQ4f/Reverso-Clow.jpg";
-let meaning = "Representa la evasión de los problemas.";
 
-export default function Reading() {
-
+export default function Meaning() {
+  const myStyle = {
+    backgroundImage: `url(${background})`,
+    height: "100vh",
+    width: "100vw",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    margin: "0",
+    padding: "0",
+    display: "flex",
+  };
   return (
     <>
       <header className={styles.header}>
         <Navbar />
       </header>
 
-      <main className={`${styles.reading} ${styles.background}`}>
-        <CardsFaceDown />
-        <Button text={"Visualiza tu lectura"}/>
+      <main className={styles.meaning} style={myStyle}>
+        <ReadingCard />
       </main>
       <footer className={styles.footer}>
         <Footer />

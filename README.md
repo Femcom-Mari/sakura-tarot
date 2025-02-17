@@ -1,8 +1,11 @@
 before open the project:
 npm install
 
-to see the project:
+to execute the project:
 npm run dev
+
+to execute the fake api:
+npm run start-server
 
 Llamada a componentes, Ejemplos:
 
