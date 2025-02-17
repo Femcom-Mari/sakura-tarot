@@ -33,6 +33,11 @@
 .formText{
     font-size: 1.5rem;
 }
+
+.errorText{
+    font-size: 0.6rem;
+}
+
 @media screen and (min-width: 1024px) {
     .formContainer {
         display: flex;

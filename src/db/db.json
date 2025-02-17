@@ -1,0 +1,296 @@
+{
+  "users": [
+    { "id": "1", "username": "Maria", "createdAt": "2025-02-17T10:00:00Z" },
+    { "id": "2", "username": "Israel", "createdAt": "2025-02-17T11:00:00Z" },
+    { "id": "3", "username": "John", "createdAt": "2025-02-17T12:00:00Z" },
+    { "id": "4", "username": "Jane", "createdAt": "2025-02-17T13:00:00Z" },
+    { "id": "5", "username": "Alice", "createdAt": "2025-02-17T14:00:00Z" },
+    { "id": "6", "username": "Bob", "createdAt": "2025-02-17T15:00:00Z" },
+    { "id": "7", "username": "Charlie", "createdAt": "2025-02-17T16:00:00Z" },
+    { "id": "8", "username": "Diana", "createdAt": "2025-02-17T17:00:00Z" },
+    { "id": "9", "username": "Eve", "createdAt": "2025-02-17T18:00:00Z" },
+    { "id": "10", "username": "Frank", "createdAt": "2025-02-17T19:00:00Z" },
+    { "id": "11", "username": "Grace", "createdAt": "2025-02-17T20:00:00Z" },
+    { "id": "12", "username": "Hank", "createdAt": "2025-02-17T21:00:00Z" }
+  ],
+  "cardSelections": [
+    {
+      "id": "1",
+      "userId": "1",
+      "selectedCards": ["12", "53", "31"],
+      "createdAt": "2025-02-17T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "selectedCards": ["4", "33", "40"],
+      "createdAt": "2025-02-17T13:00:00Z"
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "selectedCards": ["5", "22", "18"],
+      "createdAt": "2025-02-17T14:00:00Z"
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "selectedCards": ["7", "19", "25"],
+      "createdAt": "2025-02-17T15:00:00Z"
+    },
+    {
+      "id": "5",
+      "userId": "5",
+      "selectedCards": ["9", "14", "30"],
+      "createdAt": "2025-02-17T16:00:00Z"
+    },
+    {
+      "id": "6",
+      "userId": "6",
+      "selectedCards": ["11", "21", "34"],
+      "createdAt": "2025-02-17T17:00:00Z"
+    },
+    {
+      "id": "7",
+      "userId": "7",
+      "selectedCards": ["13", "24", "36"],
+      "createdAt": "2025-02-17T18:00:00Z"
+    },
+    {
+      "id": "8",
+      "userId": "8",
+      "selectedCards": ["15", "27", "38"],
+      "createdAt": "2025-02-17T19:00:00Z"
+    },
+    {
+      "id": "9",
+      "userId": "9",
+      "selectedCards": ["17", "29", "41"],
+      "createdAt": "2025-02-17T20:00:00Z"
+    },
+    {
+      "id": "10",
+      "userId": "10",
+      "selectedCards": ["20", "32", "43"],
+      "createdAt": "2025-02-17T21:00:00Z"
+    },
+    {
+      "id": "11",
+      "userId": "11",
+      "selectedCards": ["23", "35", "45"],
+      "createdAt": "2025-02-17T22:00:00Z"
+    },
+    {
+      "id": "12",
+      "userId": "12",
+      "selectedCards": ["26", "37", "47"],
+      "createdAt": "2025-02-17T23:00:00Z"
+    }
+  ],
+  "readings": [
+    {
+      "id": "1",
+      "userId": "1",
+      "pastCard": {
+        "id": "12",
+        "meaning": "meaning of 12 card"
+      },
+      "presentCard": {
+        "id": "53",
+        "meaning": "meaning of 53 card"
+      },
+      "futureCard": {
+        "id": "31",
+        "meaning": "meaning of 31 card"
+      },
+      "createdAt": "2025-02-17T14:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "pastCard": {
+        "id": "4",
+        "meaning": "meaning of 4 card"
+      },
+      "presentCard": {
+        "id": "33",
+        "meaning": "meaning of 33 card"
+      },
+      "futureCard": {
+        "id": "40",
+        "meaning": "meaning of 40 card"
+      },
+      "createdAt": "2025-02-17T15:00:00Z"
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "pastCard": {
+        "id": "5",
+        "meaning": "meaning of 5 card"
+      },
+      "presentCard": {
+        "id": "22",
+        "meaning": "meaning of 22 card"
+      },
+      "futureCard": {
+        "id": "18",
+        "meaning": "meaning of 18 card"
+      },
+      "createdAt": "2025-02-17T16:00:00Z"
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "pastCard": {
+        "id": "7",
+        "meaning": "meaning of 7 card"
+      },
+      "presentCard": {
+        "id": "19",
+        "meaning": "meaning of 19 card"
+      },
+      "futureCard": {
+        "id": "25",
+        "meaning": "meaning of 25 card"
+      },
+      "createdAt": "2025-02-17T17:00:00Z"
+    },
+    {
+      "id": "5",
+      "userId": "5",
+      "pastCard": {
+        "id": "9",
+        "meaning": "meaning of 9 card"
+      },
+      "presentCard": {
+        "id": "14",
+        "meaning": "meaning of 14 card"
+      },
+      "futureCard": {
+        "id": "30",
+        "meaning": "meaning of 30 card"
+      },
+      "createdAt": "2025-02-17T18:00:00Z"
+    },
+    {
+      "id": "6",
+      "userId": "6",
+      "pastCard": {
+        "id": "11",
+        "meaning": "meaning of 11 card"
+      },
+      "presentCard": {
+        "id": "21",
+        "meaning": "meaning of 21 card"
+      },
+      "futureCard": {
+        "id": "34",
+        "meaning": "meaning of 34 card"
+      },
+      "createdAt": "2025-02-17T19:00:00Z"
+    },
+    {
+      "id": "7",
+      "userId": "7",
+      "pastCard": {
+        "id": "13",
+        "meaning": "meaning of 13 card"
+      },
+      "presentCard": {
+        "id": "24",
+        "meaning": "meaning of 24 card"
+      },
+      "futureCard": {
+        "id": "36",
+        "meaning": "meaning of 36 card"
+      },
+      "createdAt": "2025-02-17T20:00:00Z"
+    },
+    {
+      "id": "8",
+      "userId": "8",
+      "pastCard": {
+        "id": "15",
+        "meaning": "meaning of 15 card"
+      },
+      "presentCard": {
+        "id": "27",
+        "meaning": "meaning of 27 card"
+      },
+      "futureCard": {
+        "id": "38",
+        "meaning": "meaning of 38 card"
+      },
+      "createdAt": "2025-02-17T21:00:00Z"
+    },
+    {
+      "id": "9",
+      "userId": "9",
+      "pastCard": {
+        "id": "17",
+        "meaning": "meaning of 17 card"
+      },
+      "presentCard": {
+        "id": "29",
+        "meaning": "meaning of 29 card"
+      },
+      "futureCard": {
+        "id": "41",
+        "meaning": "meaning of 41 card"
+      },
+      "createdAt": "2025-02-17T22:00:00Z"
+    },
+    {
+      "id": "10",
+      "userId": "10",
+      "pastCard": {
+        "id": "20",
+        "meaning": "meaning of 20 card"
+      },
+      "presentCard": {
+        "id": "32",
+        "meaning": "meaning of 32 card"
+      },
+      "futureCard": {
+        "id": "43",
+        "meaning": "meaning of 43 card"
+      },
+      "createdAt": "2025-02-17T23:00:00Z"
+    },
+    {
+      "id": "11",
+      "userId": "11",
+      "pastCard": {
+        "id": "23",
+        "meaning": "meaning of 23 card"
+      },
+      "presentCard": {
+        "id": "35",
+        "meaning": "meaning of 35 card"
+      },
+      "futureCard": {
+        "id": "45",
+        "meaning": "meaning of 45 card"
+      },
+      "createdAt": "2025-02-18T00:00:00Z"
+    },
+    {
+      "id": "12",
+      "userId": "12",
+      "pastCard": {
+        "id": "26",
+        "meaning": "meaning of 26 card"
+      },
+      "presentCard": {
+        "id": "37",
+        "meaning": "meaning of 37 card"
+      },
+      "futureCard": {
+        "id": "47",
+        "meaning": "meaning of 47 card"
+      },
+      "createdAt": "2025-02-18T01:00:00Z"
+    }
+  ]
+}
