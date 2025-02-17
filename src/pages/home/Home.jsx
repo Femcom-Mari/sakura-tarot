@@ -4,7 +4,6 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Form from "./../../components/form/Form.jsx";
 import { getData } from "../../api/api.jsx";
-import background from "../../assets/images/background-image.jpg";
 import sakura from "../../assets/images/sakura-logo.png"
 
 function Home() {
