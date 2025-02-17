@@ -15,7 +15,7 @@ function Home() {
       <main className={`${styles.home} ${styles.background}`}>
       <div className={styles.logo}>
           <img src={sakura} alt="sakura-logo" />
-          <p>Te damos la bienvenida,<br />
+          <p>Te damos la bienvenida,
           Por favor inserta tu nombre</p>
         </div>
         <div className={styles.form}>  
