@@ -7,20 +7,19 @@
     height: 100vh;
     width: 100vw;
     margin: auto;
-    /* margin-left: 80vh; */
 }
 
-.chooseText{
+.chooseText {
     position: relative;
 }
 
-h4{
+h4 {
     text-align: center;
 }
 
-.readingButton{
+.readingButton {
     margin-bottom: 150px;
-    position: relative
+    position: relative;
 }
 
 .deck {
@@ -34,11 +33,34 @@ h4{
     position: relative;
 }
 
+.selectedDeck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+}
+
 .card {
     width: 60px;
     height: 90px;
     margin: 2px;
     transition: transform 0.2s, box-shadow 0.2s, z-index 0.2s, top 0.2s, left 0.2s;
+    position: absolute;
+    /* Asegura que las cartas seleccionadas se posicionen correctamente */
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.selected {
+    box-shadow: 0 0 10px 5px rgb(255, 0, 0);
+    z-index: 100;
+    transform: rotate(0deg);
 }
 
 .cardImage {
@@ -250,4 +272,20 @@ h4{
 
 .deck>div:nth-child(50) {
     --i: 25;
+}
+
+.deck>div:nth-child(51) {
+    --i: 26;
+}
+
+.deck>div:nth-child(52) {
+    --i: 27;
+}
+
+.deck>div:nth-child(53) {
+    --i: 28;
+}
+
+.deck>div:nth-child(54) {
+    --i: 29;
 }
