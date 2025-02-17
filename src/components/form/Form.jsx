@@ -23,7 +23,7 @@ function Form (){
                 />
                 {errors.username && <p className={styles.errorText}>Username error</p>}
             </label>
-            <Button text={"Validar"} type="submit" />
+            <Button text={"Registrarse"} type="submit" />
         </form> 
         </>
     )
