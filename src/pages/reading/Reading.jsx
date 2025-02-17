@@ -22,10 +22,8 @@ export default function Reading() {
       <header className={styles.header}>
         <Navbar />
       </header>
-
       <main className={`${styles.reading} ${styles.background}`}>
         <CardsFaceDown />
-        <Button text={"Visualiza tu lectura"}/>
       </main>
       <footer className={styles.footer}>
         <Footer />
