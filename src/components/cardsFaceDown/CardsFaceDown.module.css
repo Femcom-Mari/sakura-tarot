@@ -10,12 +10,26 @@
     /* margin-left: 80vh; */
 }
 
+.chooseText{
+    position: relative;
+}
+
+h4{
+    text-align: center;
+}
+
+.readingButton{
+    margin-bottom: 150px;
+    position: relative
+}
+
 .deck {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 80%;
+    height: 400px;
     margin: 0 auto;
     position: relative;
 }
@@ -26,9 +40,6 @@
     margin: 2px;
     transition: transform 0.2s, box-shadow 0.2s, z-index 0.2s, top 0.2s, left 0.2s;
 }
-
-
-
 
 .cardImage {
     width: 100%;

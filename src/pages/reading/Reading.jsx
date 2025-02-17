@@ -23,17 +23,7 @@ export default function Reading() {
         <Navbar />
       </header>
       <main className={`${styles.reading} ${styles.background}`}>
-        <div className="chooseText">
-          <h4>
-            Elige tres cartas 
-            <br/>
-            para descubrir
-            <br/>
-            tu pasado, presente, y futuro.
-          </h4>
-        </div>
         <CardsFaceDown />
-        <Button className="readingButton" text={"Visualiza tu lectura"}/>
       </main>
       <footer className={styles.footer}>
         <Footer />
