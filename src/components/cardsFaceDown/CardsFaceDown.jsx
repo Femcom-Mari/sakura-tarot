@@ -4,25 +4,6 @@ import CardImage from "../cardImage/CardImage";
 import Button from "../button/Button";
 import { useNavigate } from "react-router-dom";
 
-// Mi intento
-// export default function CardsFaceDown() {
-//   const [selectedCardIds, setSelectedCardIds] = useState([]);
-//   const selectedImage = "https://i.ibb.co/BfJYRBK/Salto.jpg";
-
-//   const handleCardClick = (id) => {
-//     setSelectedCardIds((prevSelected) => {
-//       if (prevSelected.includes(id)) {
-//         // Remove if already selected
-//         return prevSelected.filter((cardId) => cardId !== id);
-//       } else if (prevSelected.length < 3) {
-//         return [...prevSelected, id];
-//       }
-//       return prevSelected;
-//     });
-//   };
-
-
-//Código EINAR:
 export default function CardsFaceDown() {
   const navigate = useNavigate();
   const [selectedCardId, setSelectedCardId] = useState(null);
