@@ -5,7 +5,9 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin-left: 80vh;
+    width: 100vw;
+    margin: auto;
+    /* margin-left: 80vh; */
 }
 
 .deck {

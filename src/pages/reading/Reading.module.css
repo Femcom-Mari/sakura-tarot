@@ -6,10 +6,23 @@
         background-repeat: "no-repeat";
         margin: 0;
         padding: 0;
-        display: "flex";
+        display: flex;
 }
 
+.reading{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 95vh;
+}
 
-.titulo1 {
-    background-color: rgb(177, 14, 202);
+.chooseText{
+    text-align: center;
+    position: relative;
+}
+
+.readingButton{
+    margin-bottom: 150px;
+    position: absolute;
 }
