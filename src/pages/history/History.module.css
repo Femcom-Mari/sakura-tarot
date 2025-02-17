@@ -55,6 +55,7 @@ main  { background-color: var(--dusky-pink-transparency);
     display: flex;
     flex-direction: row;
     gap: 3rem;
+    margin-top: 0.5rem;
 
   }
 
