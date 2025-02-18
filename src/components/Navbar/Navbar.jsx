@@ -12,14 +12,14 @@ export default function Home() {
   const { isPlaying, toggleSound } = useContext(AudioContext);
   
   const handleRefresh = () => {
-    window.location.reload();  // Recarga la página actual
+    window.location.reload(); 
   };
 
   return (
     <div>
       <header>
         <div className={styles.container}>
-          <NavLink className={styles.sol} to="/home">
+          <NavLink className={styles.sun} to="/home">
             <h1>Sol Tarot</h1>
           </NavLink>
           <button className={styles.refresh} onClick={handleRefresh}> 

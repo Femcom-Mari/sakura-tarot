@@ -4,10 +4,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    
-    
 }
-.sol{
+
+.sun{
     color: #000000;
     display:flex;
     font-family: "Poppins-Bold", sans-serif;

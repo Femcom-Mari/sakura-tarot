@@ -8,9 +8,10 @@
         padding: 0;
         display: "flex";
 }
+
 .paragraph {
     font-family: "Poppins-Regular", sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     color: #000000;
     text-align: justify;
@@ -22,10 +23,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
-.sakura img{
 
+.sakura img{
     width: auto;
     height: auto;
     max-width: 50%;
@@ -63,7 +63,6 @@
         padding-bottom: 10%;
         padding-right: 15%;
         padding-left: 9%;
-        gap: 40px;
-        
+        gap: 40px;        
     }  
 }

@@ -28,7 +28,7 @@ Los endpoints serán probados con Postman.
 Se desarrollarán tests unitarios.
 
 Tech: HTML, CSS, React, JSON Server
-Herramientos: VSC, GitHub, Trello
+Herramientas: VSC, GitHub, Trello
 
 ## El equipo
 

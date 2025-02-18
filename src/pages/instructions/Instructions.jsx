@@ -1,7 +1,7 @@
 import styles from "../instructions/Instructions.module.css";
 import Button from "../../components/button/Button";
 import Footer from "../../components/footer/Footer";
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "../../components/navbar/Navbar";
 import sakura from "../../assets/images/sakura-logo.png";
 import { useNavigate } from "react-router-dom";
 

@@ -11,7 +11,6 @@ export const getData = async () => {
       throw new Error("Error");
     }
 
-//Tres cartas random
     const randomIndices = new Set();
     while (randomIndices.size < 3) {
       randomIndices.add(Math.floor(Math.random() * response.data.length));
